@@ -87,3 +87,38 @@
   width: 32px;
   height: 32px;
 }
+
+.main-content_size {
+  position: relative;
+
+}
+
+
+.main-img_background{
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+/* .main-img_fockus{
+  position: absolute;
+  left: 50%;
+  width: 200px;
+} */
+
+.main-content_size .main-img_fockus {
+  width: 80%;
+  /* height: 60%; */
+  min-width: 350px;
+  max-width: 500px;
+  /* padding: 40px; */
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
