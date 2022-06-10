@@ -221,7 +221,6 @@ button {
 @media (max-width: 1028px) {
 
   .main {
-    height: 720px;
     background: rgb(37,56,140);
     background: radial-gradient(circle, rgba(37,56,140,1) 0%, rgba(5,5,47,1) 50%, rgba(2,0,36,1) 100%);
 
@@ -231,7 +230,7 @@ button {
     width: 100%;
     align-items: center;
     flex-direction: column-reverse;
-    justify-content: center;
+    justify-content: flex-end;
     align-content: space-between;
   }
 
